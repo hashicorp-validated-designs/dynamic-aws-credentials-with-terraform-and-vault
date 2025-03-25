@@ -3,8 +3,11 @@
 *.swp
 *.log
 *.backup
+*.tmp
+*.temp
 
 # terraform
+!.tflint.hcl
 .terraform*
 !.terraform-docs.yml
 */.terraform*
